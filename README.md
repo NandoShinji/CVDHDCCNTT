@@ -13,7 +13,7 @@
   ---- DB_USER: root<br />
   ---- DB_PASSWORD: mật khẩu root (root là tài khoản mysql)<br />
   ---- DB_DATABASE: tên database<br />
-  -- Run: adonis serve --dev<br />
+  -- Run: adonis <b>serve --dev</b><br />
   -- Chạy lệnh: <b>adonis migration:run<b><br />
 
 ### API

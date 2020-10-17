@@ -4,7 +4,7 @@
 
 - install Nodejs: https://nodejs.org/en/
 - install AdonisJS: <b>npm i --save @adonisjs/cli</b>
-- install Package: npm install
+- install Package: <b>npm install</b>
 - setup .env:
   ---- Tạo file .env tại thư mục root<br />
   ---- Copy nội dung file .env.example vào file .env<br />
@@ -14,7 +14,7 @@
   ---- DB_PASSWORD: mật khẩu root (root là tài khoản mysql)<br />
   ---- DB_DATABASE: tên database<br />
   -- Run: adonis serve --dev<br />
-  -- Chạy lệnh: adonis migration:run<br />
+  -- Chạy lệnh: <b>adonis migration:run<b><br />
 
 ### API
 

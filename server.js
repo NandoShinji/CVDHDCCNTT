@@ -1,4 +1,4 @@
-'use strict'
+"use strict";
 
 /*
 |--------------------------------------------------------------------------
@@ -17,9 +17,12 @@
 |     Make sure to pass relative path from the project root.
 */
 
-const { Ignitor } = require('@adonisjs/ignitor')
+const { Ignitor } = require("@adonisjs/ignitor");
+const ace = require("@adonisjs/ace");
 
-new Ignitor(require('@adonisjs/fold'))
+new Ignitor(require("@adonisjs/fold"))
+  .preLoad("start/initDatabase.js")
   .appRoot(__dirname)
   .fireHttpServer()
-  .catch(console.error)
+
+  .catch(console.error);

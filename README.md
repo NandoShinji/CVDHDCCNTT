@@ -3,7 +3,7 @@
 ### How to run Project?
 
 - install Nodejs: https://nodejs.org/en/
-- install AdonisJS: npm i --save @adonisjs/cli
+- install AdonisJS: <b>npm i --save @adonisjs/cli</b>
 - install Package: npm install
 - setup .env:
   ---- Tạo file .env tại thư mục root<br />
